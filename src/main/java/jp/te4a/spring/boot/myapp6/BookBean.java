@@ -11,6 +11,7 @@ public class BookBean {
 	String writter;
 	String publisher;
 	Integer price;
+	
 	public String getWritter() {
 		// TODO Auto-generated method stub
 		return null;
