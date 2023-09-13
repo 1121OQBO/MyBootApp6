@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.myapp6;
+package jp.te4a.spring.boot.myapp7;
 
 import java.util.List;
 
@@ -13,9 +13,10 @@ public class BookService {
 	BookRepository bookRepository;
 	
 	public BookBean save(BookBean bookBean) {
+		System.out.println(bookBean);
 		return bookRepository.save(bookBean);
-		}
-		public List<BookBean> findAll() {
+	}
+	public List<BookBean> findAll() {
 		return bookRepository.findAll();
-		}
+	}
 }
