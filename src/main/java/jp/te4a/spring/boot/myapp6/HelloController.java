@@ -25,5 +25,6 @@ public class HelloController {
 	bookService.save(new BookBean(Integer.valueOf(id), title, writter, publisher, Integer.valueOf(price)));
 	mv.addObject("books",bookService.findAll());
 	return mv;
+	//test
 	}
 }
